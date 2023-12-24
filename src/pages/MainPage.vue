@@ -87,23 +87,18 @@ export default {
   watch: {
     page() {
       this.loadProducts();
-      console.log('pidr');
     },
     productsPerPage() {
       this.loadProducts();
-      console.log('pidr');
     },
     filterCategoryId() {
       this.loadProducts();
-      console.log('pidr');
     },
     filterPriceFrom() {
       this.loadProducts();
-      console.log('pidr');
     },
     filterPriceTo() {
       this.loadProducts();
-      console.log('pidr');
     },
   },
   created() {
